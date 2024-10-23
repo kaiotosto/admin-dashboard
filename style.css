@@ -103,3 +103,35 @@ img.pp {
 	padding-right: 10px;
 	padding-left: 10px;
 }
+
+.header .profile {
+	display: flex;
+	flex-direction: row;
+}
+
+.profile .user {
+	display: flex;
+	flex-direction: row;
+	padding-left: 30px;
+	gap: 10px;
+}
+
+.user img {
+	border-radius: 50%;
+	height: 60px;
+}
+
+.user div {
+	align-self: center;
+}
+
+.profile .buttons {
+	display: flex;
+	flex-direction: row;
+	padding-left: 725px;
+	gap: 20px;
+}
+
+button {
+	background-color: white;
+}
